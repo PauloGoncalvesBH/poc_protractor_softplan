@@ -1,0 +1,20 @@
+{
+  "name": "protractor-style-guide",
+  "version": "2.0.1",
+  "description": "Automation style guide using protractor and protractor-helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor",
+    "prettify": "prettier --write **/*.js  **/*.json --print-width 120"
+  },
+  "author": "Paulo Henrique Rocha Gonçalves <paulorochag@hotmail.com> (https://linkedin.com/in/paulo-goncalves)",
+  "license": "MIT",
+  "dependencies": {
+    "protractor": "5.4.2",
+    "protractor-helper": "^3.7.3",
+    "jasmine-spec-reporter": "^4.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
+}
